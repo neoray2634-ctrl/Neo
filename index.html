@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Gemzy - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="greeting">
+          <div class="avatar">
+            <img src="https://i.pravatar.cc/64?img=5" alt="avatar" />
+          </div>
+          <div class="text">
+            <div class="sub">Good morning,</div>
+            <div class="name">Neo Kapah</div>
+          </div>
+        </div>
+        <button class="icon-btn settings" aria-label="Settings">
+          <span class="icon gear"></span>
+        </button>
+      </header>
+
+      <main class="content" id="content">
+        <section class="section">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon lines"></span>
+              <div>
+                <div class="title">Recent collections</div>
+                <div class="subtitle">See your latest projects</div>
+              </div>
+            </div>
+            <button class="icon-btn chevron" aria-label="Open">
+              <span class="icon chevron-right"></span>
+            </button>
+          </div>
+
+          <div class="carousel" id="recentCarousel">
+            <article class="card">
+              <div class="time-badge">12 Minutes ago</div>
+              <img class="card-img" src="https://images.unsplash.com/photo-1617038260897-3e5f7955daeb?q=80&w=1200&auto=format&fit=crop" alt="Unsaved" />
+              <div class="card-body">
+                <div class="card-title">Unsaved</div>
+                <div class="card-meta">
+                  <img class="mini-avatar" src="https://i.pravatar.cc/40?img=32" alt="Zaya Amune" />
+                  <span>Zaya Amune</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="time-badge">3 Hours ago</div>
+              <img class="card-img" src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?q=80&w=1200&auto=format&fit=crop" alt="Dan earrings" />
+              <div class="card-body">
+                <div class="card-title">Dan earrings 203...</div>
+                <div class="card-meta">
+                  <img class="mini-avatar" src="https://i.pravatar.cc/40?img=12" alt="Sofia Muller" />
+                  <span>Sofia Muller</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon star"></span>
+              <div>
+                <div class="title">Gemzy Models</div>
+                <div class="subtitle">Use our latest models</div>
+              </div>
+            </div>
+            <button class="icon-btn chevron" aria-label="Open">
+              <span class="icon chevron-right"></span>
+            </button>
+          </div>
+
+          <div class="model-grid">
+            <div class="model-card"><img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1200&auto=format&fit=crop" alt="Model" /></div>
+            <div class="model-card"><img src="https://images.unsplash.com/photo-1513384312027-9fa69a360337?q=80&w=1200&auto=format&fit=crop" alt="Model" /></div>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" role="navigation">
+        <button class="nav-btn active" aria-label="Home">
+          <span class="nav-pill">
+            <span class="icon home"></span>
+          </span>
+        </button>
+        <button class="nav-btn" aria-label="Add">
+          <span class="icon plus"></span>
+        </button>
+        <button class="nav-btn" aria-label="Menu">
+          <span class="icon menu"></span>
+        </button>
+      </nav>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
+
