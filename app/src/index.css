@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: Inter, ui-sans-serif, system-ui, sans-serif;
+  --color-gemzy-bg: #F7F4FF;
+  --color-gemzy-text: #111827;
+  --color-gemzy-subtext: #6B7280;
+}
+
+html, body, #root {
+  @apply h-full;
+}
+
+body {
+  @apply bg-gemzy-bg text-gemzy-text antialiased;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none }
